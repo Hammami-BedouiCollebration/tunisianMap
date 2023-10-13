@@ -1,0 +1,38 @@
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+body{
+    background-color:  rgb(10, 154, 243);
+}
+
+
+.image {
+  text-align: center;
+}
+
+.mainImg {
+  width: 950px;
+  height: 500px;
+}
+
+.imgs {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img {
+  width: 300px;
+  height: 175px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(10, 154, 243);
+  text-decoration: underline;
+}
