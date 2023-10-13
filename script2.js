@@ -40,6 +40,10 @@ for(var i=0;i<arr.length;i++){
     div.classList.add("item")
     var imageInstance=new Image()
     imageInstance.src=item.image
+    imageInstance.addEventListener('click',function(){
+      alert("hi")
+      window.location.href="index3.html"
+    })
     div.appendChild(imageInstance)
 
     var button=document.createElement('button')
